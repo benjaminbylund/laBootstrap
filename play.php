@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Soloäventyr - Spela</title>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather%7cMerriweather+Sans" rel="stylesheet">
 	<!-- Min egna css <link rel="stylesheet" href="css/style.css"> -->
 	<!-- BootStraps css -->
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link" href="index.php">Hem</a>
       </li>
       <li class="nav-item active">
@@ -35,7 +35,6 @@
 </nav>
 <!-- Main content -->
 <main class="content">
-	<section>
 		<h1>Spela</h1>
 
 <?php

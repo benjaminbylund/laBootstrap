@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Soloäventyr - Redigera</title>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather%7cMerriweather+Sans" rel="stylesheet">
 	<!-- BootStraps css -->
  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	 <!-- BootStrap Javascript -->
@@ -17,6 +17,7 @@
 	<!-- Min egna css <link rel="stylesheet" href="css/style.css"> --> 
 </head>
 <body>
+<main>
 <!-- the navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="" id="navbarNav">
@@ -35,8 +36,7 @@
 </nav>
 <!-- main content -->
 <div class="container">
-	<section>
-		<h1>Redigera</h1>
+	<h1>Redigera</h1>
 
 	<!-- Form -->
 	<nav class="navbar navbar-light bg-light">
@@ -90,13 +90,14 @@ foreach ($row as $value){
 	echo "<tr>";
 			echo 	"<td>" . $value['id'] . "</td>";
 			echo "<td>" . substr($value['text'], 0, 40) . " </td>";
-	echo "<td <a href=\"edit.php?edit=" . $value['id'] . "\">Edit</a> </td>";
+	echo "<td> <a href=\"edit.php?edit=" . $value['id'] . "\">Edit</a> </td>";
 	echo "</tr>";
 }
 
 echo "</table>";
 
 ?>
+
 </main>
 </body>
 </html>

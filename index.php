@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Soloäventyr</title>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather%7cMerriweather+Sans" rel="stylesheet">
 	<!-- Min egna css <link rel="stylesheet" href="css/style.css"> -->
 	<!-- BootStraps css -->
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -32,14 +32,16 @@
   </div>
 </nav>
 <!-- Main content -->
-<main class="content">
-	<div class="col-4">
-		<h1>Soloäventyr - LONE SHEEP </h1>
-		<p>Välkommen till mitt text äventyr Trappen, Undan Flykten från Träppen.</p>
+<main>
+	<div class="container">
+		<div class="col-12">
+			<h1>Soloäventyr - LONE SHEEP </h1>
+			<p>Välkommen till mitt text äventyr Trappen, Undan Flykten från Träppen.</p>
 
-		<img src="bilder/sheep.svg" alt="ensammaVargen" height="350" width="350">
-		<p> Om du väljer att trycka på Spela så kommer du kunna spela mitt fantastiska
-			 spel.</p>
+			<img src="bilder/sheep.svg" alt="ensammaVargen" height="350" width="350">
+			<p> Om du väljer att trycka på Spela så kommer du kunna spela mitt fantastiska
+				 spel.</p>
+		</div>
 	</div>
 </main>
 <script src="js/navbar.js"></script>
